@@ -1,12 +1,10 @@
 package com.crackersmachine;
 
+
 public interface CrackerState {
-    public void insertDollar();
-    public void ejectDollar();
-    public void dispense();
+        void insertCoin();
+        void pressButton();
+        void dispense();
+    }
+    
 
-    public void refill();
-    public void turnCrank();
-
-
-}
